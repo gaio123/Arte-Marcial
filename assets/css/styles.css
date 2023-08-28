@@ -1,0 +1,105 @@
+:root {
+    --fonte-principal:"sans-serif"
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body {
+    font-family: var(--fonte-principal) sans-serif;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+#nav {
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#atracoes {
+    background-color: grey;
+    font-size: 110px;
+    padding-top: 100px;
+    
+}
+
+#nav ul li {
+    list-style: none;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#nav ul#menu li {
+    float: left;
+    border-radius: 8px;
+}
+
+#nav ul.right li {
+    float: right;
+}
+
+.clearfix::before ,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#nav ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+
+#nav ul#menu li:hover { 
+    background-color: white;  
+} 
+
+h3{
+    color: white;
+}
+
+[class*="col-"] {
+    float: left;
+    padding-right: 10px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 24.99%;}
+.col-4 {width: 33.32%;}
+.col-5 {width: 41.65%;}
+.col-6 {width: 49.98%;}
+.col-7 {width: 58.31%;}
+.col-8 {width: 66.64%;}
+.col-9 {width: 74.97%;}
+.col-10 {width: 83.3%;}
+.col-11 {width: 91.63%;}
+.col-12 {width: 100%;}
+
+.col-6.img{
+    margin-top: 10px;
+    margin-left: 200px;
+    padding-bottom: 10px;
+    
+}
+
+footer{
+    text-align: center;
+
+
+}
+
+
